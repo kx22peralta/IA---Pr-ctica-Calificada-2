@@ -68,6 +68,8 @@ El mejor modelo fue el **Random Forest Regressor** con un **RMSE** de 4.33.
 
 
 
+
+
 ## Grupo 9 
 ### Integrantes:
 + Peralta Haro Katheryn Ximena
