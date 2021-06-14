@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.evaluation.RegressionEvaluator","timestamp":1623647102426,"sparkVersion":"3.1.1","uid":"RegressionEvaluator_4458d2d300b8","paramMap":{"labelCol":"fare_amount"},"defaultParamMap":{"throughOrigin":false,"metricName":"rmse","predictionCol":"prediction","labelCol":"label"}}
