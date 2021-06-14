@@ -1,6 +1,21 @@
 # IA-PracticaCalificada2
+
 Inteligencia Artificial, César Lara, Práctica Calificada 2, 2021-I
 Predicción de tarifas de taxis.
+
+## Herramientas 
+
+## Apache Spark  [Apache spark](https://spark.apache.org/)
+
+Apache Spark™ es un motor de análisis unificado para el procesamiento de datos a gran escala.
+
+### pyspark 3.1.1
+
+PySpark es una interfaz para Apache Spark en Python. No solo le permite escribir aplicaciones 
+Spark utilizando las API de Python, sino que también proporciona el shell de PySpark para 
+analizar interactivamente sus datos en un entorno distribuido. PySpark es compatible con la 
+mayoría de las funciones de Spark, como Spark SQL, DataFrame, Streaming, 
+MLlib (Machine Learning) y Spark Core.
 
 El objetivo de esta evaluación es construir un modelo de aprendizaje que sea capaz de
 predecir la tarifa que cobra un taxi.
@@ -45,25 +60,13 @@ En este repositorio utilizamos el 4% del conjunto total:
 Entrenamos modelos de :
 
 ## 1. Random Forest Regressor
-
-#### RMSE :
-
 ## 2. Gradient Boosting Tree Regressor
-El modelo de gradient Boosting Tree regressor utilizo una muesta del 4% del conjunto de datos.
-Separamos la data en 0.7 para entrenamiento y 0.3 para prueba. Definimos un modulo con 
-maxima profundidad de 12, maxima iteraciones 10 y max Bins = 24 y un crossValidator de 3 Folds
+## 3. AFTSurvivalRegression
+## 4. Linear Regressor
+
+El mejor modelo fue el **Random Forest Regressor** con un **RMSE** de 4.33.
 
 
-#### RMSE: 4.3879360043846
-
-## 3. AFTSurvivalRegressión
-
-#### RMSE:
-
-## 4. LinearRegressor
-
-
-#### RMSE:
 
 ## Grupo 9 
 ### Integrantes:
