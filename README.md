@@ -53,6 +53,16 @@ Entrenamos modelos de :
 
 #### RMSE:
 ## 3. AFTSurvivalRegressión
+Es un modelo de regresión por supervivencia con datos censurados,
+es por ello que lleva una columna censor, 1 para no censurar,
+0 para censurar, realiza una función  llamada de riesgo para 
+agilizar la velocidad del aprendizaje, a diferencia de otros
+modelos de riesgo el modelo AFT es más fácil de paralelizar 
+porque cada instancia contribuye a la función objetivo de 
+forma independiente.Generalmente se usa la distribución 
+de Weibull con función logaritmica de verosimilitud, la rapidez
+radica en que envés de poner en peligro al modelo pone como
+supervivencia la vida util hallada con la función.
 
 #### RMSE:
 
