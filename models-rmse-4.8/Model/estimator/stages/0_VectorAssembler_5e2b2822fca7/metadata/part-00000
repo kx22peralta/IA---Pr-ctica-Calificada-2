@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1623647102893,"sparkVersion":"3.1.1","uid":"VectorAssembler_5e2b2822fca7","paramMap":{"outputCol":"features","inputCols":["passenger_count","distancia","dia_semana","hora","mes","anio"]},"defaultParamMap":{"outputCol":"VectorAssembler_5e2b2822fca7__output","handleInvalid":"error"}}
