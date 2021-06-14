@@ -49,9 +49,13 @@ Entrenamos modelos de :
 #### RMSE :
 
 ## 2. Gradient Boosting Tree Regressor
+El modelo de gradient Boosting Tree regressor utilizo una muesta del 4% del conjunto de datos.
+Separamos la data en 0.7 para entrenamiento y 0.3 para prueba. Definimos un modulo con 
+maxima profundidad de 12, maxima iteraciones 10 y max Bins = 24 y un crossValidator de 3 Folds
 
 
-#### RMSE:
+#### RMSE: 4.3879360043846
+
 ## 3. AFTSurvivalRegressión
 
 #### RMSE:
